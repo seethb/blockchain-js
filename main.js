@@ -58,7 +58,7 @@ balablock.addBlock(new Block(1,"20/10/2007",{amount:4}));
 console.log('Mineblock 1');
 balablock.addBlock(new Block(2,"21/10/2007",{amount:5}));
 console.log('Is blockchain is valid'+balablock.isChainValid());
-balablock.chain[1].data = {amount : 600};
+//balablock.chain[1].data = {amount : 600};
 console.log('Is blockchain is valid'+balablock.isChainValid());
 //console.log(JSON.stringify(balablock,null,4));
 
